@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powtórzenie</title>
+	<style>
+		#el{
+			background:yellow;
+			width:100px;
+			height:100px;
+		}
+	</style>
+</head>
+<body>
+	<input type="text">
+	<input type="checkbox">
+	<input type="checkbox">
+	<input type="checkbox">
+	<input type="radio" name="myRadio">
+	<input type="radio" name="myRadio" >
+	<input type="radio" name="myRadio" >
+	<select>
+		<option>Pierwszy</option>
+		<option>Drugi</option>
+		<option>Traeci</option>
+		<option>Czwarty</option>
+	</select>
+	<button>CLICK ME!</button>
+	
+	<div id="el" onClick="myFunction()" ></div>
+	<script>
+		const myElement = document.getElementById('el');
+	
+		function myFunction(){
+			myElement.style.display = 'none';
+		}
+	</script>
+</body>
+</html>
