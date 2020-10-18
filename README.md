@@ -1,7 +1,15 @@
 # T306-JS_intro (2020.10.12/13)
 ## -------INFO
 ```
-1. Syntax
+
+1. Intro
+2. Syntax
+3. Types
+4. Flow control
+5. Functions
+6. Objects
+7. DOM
+
 ```
 
 ```
