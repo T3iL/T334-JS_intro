@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+    </style>
+    </head>
+    <body>
+        <h1 id="myheader" class="header">Hello</h1>
+
+        <h1 id="drugi" class="header">Kolejna treść</h1>
+
+        <button id="mybtn" onClick="zmiana()">Klik</button>
+
+        <script>
+            const myh1 = document.getElementById('drugi').innerHTML;
+            const myHeader = document.getElementById('myheader');
+
+            function zmiana() {
+                myHeader.innerHTML = "Tekst";
+                myHeader.style.fontSize = "5em";
+                console.log('kliknąłeś mnie')
+            }
+        </script>
+</body>
+</html>
