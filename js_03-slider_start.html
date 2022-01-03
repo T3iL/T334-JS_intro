@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <style></style>
+    </style>
+    </head>
+    <body>
+
+        <input id="btnprev" type="button" value="<">
+
+        <img src="http://via.placeholder.com/300x200" alt="img">
+
+        <input id="btnnext" type="button" value=">">
+
+        <script>
+            const btnprev = document.getElementById('btnprev');
+            const btnnext = document.getElementById('btnnext');
+
+            btnprev.addEventListener('click',function (){zmien('prev')});
+            btnnext.addEventListener('click',() => zmien('next'));
+
+            function zmien(jak){
+                if(jak == 'prev'){
+                    console.log('poprzedni')
+                    
+                } else {
+                    console.log('nastepny')
+                }
+            }
+        </script>
+</body>
+</html>
