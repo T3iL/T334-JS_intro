@@ -41,8 +41,8 @@ Przygotuj sterowanie kwadratowym elementem z uzyciem buttonów (arrows).
                 'https://images.pexels.com/photos/10314318/pexels-photo-10314318.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'
             ];
 
-            const obrazki1 = [];
-            const obrazki2 = new Array();
+            //const obrazki1 = [];
+            //const obrazki2 = new Array();
 
             btnprev.addEventListener('click',function (){zmien('prev')});
             btnnext.addEventListener('click',() => zmien('next'));
