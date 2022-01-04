@@ -18,6 +18,60 @@ Przygotuj sterowanie kwadratowym elementem z uzyciem buttonów (arrows).
 
 ```
 
+```html
+...............
+
+        <input id="btnprev" type="button" value="<">
+
+        <img id="myimg" src="https://images.pexels.com/photos/5725972/pexels-photo-5725972.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="img">
+
+        <input id="btnnext" type="button" value=">">
+
+        <script>
+            const btnprev = document.getElementById('btnprev');
+            const btnnext = document.getElementById('btnnext');
+            const img = document.getElementById('myimg');
+
+            let counter = 0;
+
+            const obrazki = [
+                'https://images.pexels.com/photos/5725972/pexels-photo-5725972.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+                'https://images.pexels.com/photos/10069506/pexels-photo-10069506.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+                'https://images.pexels.com/photos/7997389/pexels-photo-7997389.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+                'https://images.pexels.com/photos/10314318/pexels-photo-10314318.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'
+            ];
+
+            const obrazki1 = [];
+            const obrazki2 = new Array();
+
+            btnprev.addEventListener('click',function (){zmien('prev')});
+            btnnext.addEventListener('click',() => zmien('next'));
+
+            function zmien(jak){
+                if(jak == 'prev'){
+                    console.log('poprzedni',counter,obrazki[counter])
+                    if(counter > 0){
+                        counter--;
+                    } else {
+                        counter = obrazki.length -1;
+                    }
+                    //conter = counter - 1
+                } else {
+                    console.log('nastepny',obrazki.length,counter,obrazki[counter])
+                    if(counter < obrazki.length - 1){
+                        counter++;
+                    } else {
+                        counter = 0;
+                    }
+                    //conter = counter + 1
+                }                    
+                img.src = obrazki[counter];
+            }
+        </script>
+          
+................
+```
+
 ### --------Links
 https://github.com/T3iL/T303-CSS
 
