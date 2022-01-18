@@ -1,4 +1,7 @@
-# T306-JS_intro (2020.10.12/13)
+# T306-JS_intro
+
+https://prod.liveshare.vsengsaas.visualstudio.com/join?43CFFDF70C8EC95C749DC5BC278B1817EACA
+
 ## -------INFO
 ```
 
