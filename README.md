@@ -1,6 +1,4 @@
-# T306-JS_intro
-
-https://prod.liveshare.vsengsaas.visualstudio.com/join?43CFFDF70C8EC95C749DC5BC278B1817EACA
+# T334-JS_intro
 
 ## -------INFO
 ```
@@ -73,6 +71,21 @@ Przygotuj sterowanie kwadratowym elementem z uzyciem buttonów (arrows).
         </script>
           
 ................
+```
+
+```javascript
+        const container = document.createElement('div')
+        document.body.appendChild(container);
+
+        function dodaj(){
+            const newDiv = document.createElement('div')
+            newDiv.id = "nowyDiv";
+            newDiv.classList.add('czerwony')
+            newDiv.style.border = '1px solid'
+            newDiv.innerHTML = content;
+
+            container.appendChild(newDiv);
+        }
 ```
 
 ### --------Links
