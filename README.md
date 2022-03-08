@@ -91,7 +91,7 @@ T33402 - Przygotuj skrypt wstawiający po kliknięciu cegłę do kontenera. Ceg�
 Mur buduje się od dolnej krawędzi strony i może być wyższy niz strona.
 - dodaj teksturę do cegieł (gradient/pattern)
 - upewnij się że cegły budują się prawidłowo (na zakładkę)
-- losuj odcień cegieł (każda ma lekkko inny odcień)
+- losuj odcień cegieł (każda ma inny odcień - losowo)
 - zanimuj spadanie cegieł z góry podczas budowania
 ```
 
