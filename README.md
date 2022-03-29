@@ -112,8 +112,8 @@ https://cdnjs.com/ | https://fontawesome.com | http://fontello.com/ | https://fo
 ### ---------Stock Img
 https://www.pexels.com/ | https://unsplash.com | https://pixabay.com
 ### ---------Tuts
-https://www.youtube.com/watch?v=1Rs2ND1ryYc
-https://www.youtube.com/watch?v=J35jug1uHzE
-https://www.youtube.com/watch?v=ieTHC78giGQ
+https://www.youtube.com/watch?v=OcwON22ctYc
+https://www.youtube.com/watch?v=udxqsJXJM5Q
+https://www.youtube.com/c/helloroman
 ### ---------License
 [MIT](https://choosealicense.com/licenses/mit/)
