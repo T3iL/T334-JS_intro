@@ -93,6 +93,8 @@ Mur buduje się od dolnej krawędzi strony i może być wyższy niz strona.
 - upewnij się że cegły budują się prawidłowo (na zakładkę)
 - losuj odcień cegieł (każda ma inny odcień)
 - zanimuj spadanie cegieł z góry podczas budowania
+
+T33403 - Przygotuj stronęhtml wyświetlającą karty profilowe z danymi pobranymi z tablicy
 ```
 
 ### --------Links
