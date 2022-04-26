@@ -94,7 +94,13 @@ Mur buduje się od dolnej krawędzi strony i może być wyższy niz strona.
 - losuj odcień cegieł (każda ma inny odcień)
 - zanimuj spadanie cegieł z góry podczas budowania
 
-T33403 - Przygotuj stronęhtml wyświetlającą karty profilowe z danymi pobranymi z tablicy
+T33403 - Przygotuj stronę html wyświetlającą karty profilowe z danymi pobranymi z tablicy. 
+(Zastosuj css do sformatowania zgodnie z rysunkiem - Rys 1.)
+
+T334004 - Przygotuj zegar z obręczami zamiast wskazówek wskazujący rzeczywisty czas. (Canvas)
+ Zastosuj Koła o odpowiednio pbliczonym zakresie zgodnie z rys 2)
+
+T334004 - Sprawdzian z podstaw Java script (zmienne, instr. warunkowe, pętle, tablice) DATA: 10.05.2022
 ```
 
 ### --------Links
