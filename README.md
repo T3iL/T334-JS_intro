@@ -103,6 +103,8 @@ T334004 - Przygotuj zegar z obręczami zamiast wskazówek wskazujący rzeczywist
 T334004 - Sprawdzian z podstaw Java script (zmienne, instr. warunkowe, pętle, tablice) DATA: 10.05.2022
 ```
 
+![Rys 1](./Cards.PNG)
+
 ### --------Links
 https://github.com/T3iL/T303-CSS
 
