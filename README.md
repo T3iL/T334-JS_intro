@@ -107,6 +107,33 @@ T334004 - Sprawdzian z podstaw Java script (zmienne, instr. warunkowe, pętle, t
 
 ![Rys 2](./Clock.PNG)
 
+```
+T334005 - Przekonwertuj poniższy kod Javascript nie zmieniając jego działania, zastęując instrukcje warunkowe if instrukcją switch (po podmianie kodu w konsoli wyświetla się to samo)
+```
+```js
+    <script>
+        document.addEventListener('keydown',check)
+
+        let text = '';
+
+        console.log('write TEST word')
+
+        function check(e){
+            if(e.code === 'KeyT'){
+                text += 'T'
+            } else if (e.code === 'KeyE') {
+                text += 'E'
+            } else if (e.code === 'KeyS') {
+               text += 'S'
+            } else {
+                console.log('Key "' + e.code + '" was clicked. Try again');
+            }
+            console.log(text)
+        }
+    </script>
+```
+
+
 ### --------Links
 https://github.com/T3iL/T303-CSS
 
