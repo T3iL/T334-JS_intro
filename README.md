@@ -107,8 +107,16 @@ T334004 - Sprawdzian z podstaw Java script (zmienne, instr. warunkowe, pętle, t
 
 ![Rys 2](./Clock.PNG)
 
-ZAD - Przygotuj stronę pokazaną na poniższej ilustracji, generowaną dynamicznie (przy pomocy Javascript) 
-wyświetlającą pierwsze litery imion z tablicy "imiona" w szarych kółkach o promieniu 50px i z obwódką w kolorze czerwonym.
+Kartkówka ZAD5 - Przygotuj stronę pokazaną na poniższej ilustracji pamiętając o traktowaniu łańcuchów znaków jak tablicy.
+- treść generowana jest dynamicznie (przy pomocy Javascript) i pobierana z tablicy imiona
+```code
+        const imiona = ['Eliasz','Ildefons','Chwalibóg','Adalbert','Łazarz','Genowefa','Zbysław','Serafin','Ulryk','Wawrzyniec','Kilian','Telimena','Hawier','Barnaba','Oktawiusz','Vanesa','Regina','Nicefor','Ścibor','Pantaleon','Marcjanna','Laurencja','Jakobina','Felicyta','Demetria'];
+```
+- W szarych kółkach o rozmiarze 150px X 150px, z czerwoną obwódką o grubości 10px, wyświetlają się pierwsze litery imion z tablicy.
+- Kolor tekstu: biały, font: Verdana, rozmiar tekstu: 4em, rozmiar indeksu: 1rem
+- obok liter w indeksie (w nawiasie) umieszczona jest długość imienia (ilość znaków) obliczona automatycznie
+- contener z kółkami wycentrowany w obu kierunkach
+- kółka "przepływają" do nowej lini gdy sięnie mieszczą (wrap) tak jak na ilustracji
 
 ```code
         const imiona = ['Eliasz','Ildefons','Chwalibóg','Adalbert','Łazarz','Genowefa','Zbysław','Serafin','Ulryk','Wawrzyniec','Kilian','Telimena','Hawier','Barnaba','Oktawiusz','Vanesa','Regina','Nicefor','Ścibor','Pantaleon','Marcjanna','Laurencja','Jakobina','Felicyta','Demetria'];
