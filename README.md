@@ -107,6 +107,8 @@ T334004 - Sprawdzian z podstaw Java script (zmienne, instr. warunkowe, pętle, t
 
 ![Rys 2](./Clock.PNG)
 
+ZAD - Przygotuj stronę pokazaną na poniższej ilustracji, generowaną dynamicznie (przy pomocy Javascript) 
+wyświetlającą pierwsze litery imion z tablicy "imiona" w szarych kółkach o promieniu 50px i z obwódką w kolorze czerwonym.
 
 ```code
         const imiona = ['Eliasz','Ildefons','Chwalibóg','Adalbert','Łazarz','Genowefa','Zbysław','Serafin','Ulryk','Wawrzyniec','Kilian','Telimena','Hawier','Barnaba','Oktawiusz','Vanesa','Regina','Nicefor','Ścibor','Pantaleon','Marcjanna','Laurencja','Jakobina','Felicyta','Demetria'];
