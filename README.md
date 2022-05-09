@@ -111,7 +111,7 @@ T334004 - Sprawdzian z podstaw Java script (zmienne, instr. warunkowe, pętle, t
 ```code
         const imiona = ['Eliasz','Ildefons','Chwalibóg','Adalbert','Łazarz','Genowefa','Zbysław','Serafin','Ulryk','Wawrzyniec','Kilian','Telimena','Hawier','Barnaba','Oktawiusz','Vanesa','Regina','Nicefor','Ścibor','Pantaleon','Marcjanna','Laurencja','Jakobina','Felicyta','Demetria'];
 ```
-![Spr](./Initials.JPG)
+![Spr](./Initials3.JPG)
 
 ### --------Links
 https://github.com/T3iL/T303-CSS
