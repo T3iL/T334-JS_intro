@@ -107,7 +107,7 @@ T334004 - Sprawdzian z podstaw Java script (zmienne, instr. warunkowe, pętle, t
 
 ![Rys 2](./Clock.PNG)
 
-
+![Spr](./Initials.JPG)
 
 ### --------Links
 https://github.com/T3iL/T303-CSS
