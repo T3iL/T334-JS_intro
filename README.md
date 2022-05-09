@@ -110,7 +110,7 @@ T334004 - Sprawdzian z podstaw Java script (zmienne, instr. warunkowe, pętle, t
 ```
 T334005 - Przekonwertuj poniższy kod Javascript nie zmieniając jego działania, zastęując instrukcje warunkowe if instrukcją switch (po podmianie kodu w konsoli wyświetla się to samo)
 ```
-```js
+```javascrtipt
     <script>
         document.addEventListener('keydown',check)
 
