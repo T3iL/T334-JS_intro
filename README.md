@@ -107,6 +107,10 @@ T334004 - Sprawdzian z podstaw Java script (zmienne, instr. warunkowe, pętle, t
 
 ![Rys 2](./Clock.PNG)
 
+
+```code
+        const imiona = ['Eliasz','Ildefons','Chwalibóg','Adalbert','Łazarz','Genowefa','Zbysław','Serafin','Ulryk','Wawrzyniec','Kilian','Telimena','Hawier','Barnaba','Oktawiusz','Vanesa','Regina','Nicefor','Ścibor','Pantaleon','Marcjanna','Laurencja','Jakobina','Felicyta','Demetria'];
+```
 ![Spr](./Initials.JPG)
 
 ### --------Links
