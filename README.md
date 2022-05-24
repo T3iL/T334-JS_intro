@@ -96,6 +96,10 @@ Mur buduje się od dolnej krawędzi strony i może być wyższy niz strona.
 
 T33403 - Przygotuj stronę html wyświetlającą karty profilowe z danymi pobranymi z tablicy. 
 (Zastosuj css do sformatowania zgodnie z rysunkiem - Rys 1.)
+- dane użytkowników pobierz z https://gist.github.com/rubenCodeforges/ef1f0ce6a055bbb985c0848d8b0c04d5
+- zastąp placeholdery obrazów zdjęciami stockowymi
+- opis wypełnij lorem ipsum
+
 
 T334004 - Przygotuj zegar z obręczami zamiast wskazówek wskazujący rzeczywisty czas. (Canvas)
  Zastosuj Koła o odpowiednio pbliczonym zakresie zgodnie z rys 2)
