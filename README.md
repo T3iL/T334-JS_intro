@@ -121,7 +121,89 @@ Kartkówka ZAD5 - Przygotuj stronę pokazaną na poniższej ilustracji pamiętaj
 ```code
         const imiona = ['Eliasz','Ildefons','Chwalibóg','Adalbert','Łazarz','Genowefa','Zbysław','Serafin','Ulryk','Wawrzyniec','Kilian','Telimena','Hawier','Barnaba','Oktawiusz','Vanesa','Regina','Nicefor','Ścibor','Pantaleon','Marcjanna','Laurencja','Jakobina','Felicyta','Demetria'];
 ```
+
+
 ![Spr](./Initials3.JPG)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container"></div>
+    <script>
+        const container = document.getElementById('container')
+        //IF
+        let a = 10;
+        let b = '10';
+
+        if (a > 5 || a < 10) { // && || AND OR
+            console.log('jest między 5 a 10')
+        } else {
+            console.log('nie jest równe')
+        }
+
+        // switch
+
+    switch(a){
+        case 5:
+            console.log('jest równe 5')
+        break;
+        case 10:
+            console.log('jest równe 10')
+        break;
+        case 15:
+            console.log('jest równe 15')
+        break;
+        default:
+            console.log('inne')
+        break;
+    }
+
+    //PĘTLE
+
+    let i = 0;
+
+    while(i < 10){
+        // console.log('I-',i);
+        i++;
+    }
+
+    let j = 0;
+
+    do {
+        // console.log('J-',j);
+        j++;
+    } while (j < 10)
+
+    let k = 0;
+
+    for(k; k < 10; k++){
+        // console.log('K-',k);
+    }
+
+    const imiona = ['Eliasz','Ildefons','Chwalibóg','Adalbert','Łazarz','Genowefa','Zbysław','Serafin','Ulryk','Wawrzyniec','Kilian','Telimena','Hawier','Barnaba','Oktawiusz','Vanesa','Regina','Nicefor','Ścibor','Pantaleon','Marcjanna','Laurencja','Jakobina','Felicyta','Demetria'];
+    
+    let tekst = '';
+
+    for(let l = 0; l < imiona.length; l++){
+        console.log(imiona[l])
+    }   
+
+    imiona.forEach(imie => {
+        tekst += imie + ' ,';
+    })
+
+    container.innerHTML = tekst
+    </script>
+</body>
+</html>
+```
 
 ### --------Links
 https://github.com/T3iL/T303-CSS
