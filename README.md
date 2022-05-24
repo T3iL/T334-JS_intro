@@ -94,7 +94,7 @@ Mur buduje się od dolnej krawędzi strony i może być wyższy niz strona.
 - losuj odcień cegieł (każda ma inny odcień)
 - zanimuj spadanie cegieł z góry podczas budowania
 
-T33403 - Przygotuj stronę html wyświetlającą karty profilowe z danymi pobranymi z tablicy. 
+T33403 - (do 2022.05.31) - Przygotuj stronę html wyświetlającą karty profilowe z danymi pobranymi z tablicy. 
 (Zastosuj css do sformatowania zgodnie z rysunkiem - Rys 1.)
 - dane użytkowników pobierz z https://gist.github.com/rubenCodeforges/ef1f0ce6a055bbb985c0848d8b0c04d5
 - zastąp placeholdery obrazów zdjęciami stockowymi
