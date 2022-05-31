@@ -105,6 +105,7 @@ DODATKOWA FUNKCJONALNOSĆ:
 - filttrowanie (K/M)
 - usuwanie
 - dodawanie
+- drag and drop
 
 
 T334004 - Przygotuj zegar z obręczami zamiast wskazówek wskazujący rzeczywisty czas. (Canvas)
