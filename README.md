@@ -100,6 +100,12 @@ T33403 - (do 2022.05.31) - Przygotuj stronę html wyświetlającą karty profilo
 - zastąp placeholdery obrazów zdjęciami stockowymi (np: https://randomuser.me/api/portraits/women/24.jpg)
 - opis wypełnij lorem ipsum
 
+DODATKOWA FUNKCJONALNOSĆ:
+- odwrócenie kolejności
+- filttrowanie (K/M)
+- usuwanie
+- dodawanie
+
 
 T334004 - Przygotuj zegar z obręczami zamiast wskazówek wskazujący rzeczywisty czas. (Canvas)
  Zastosuj Koła o odpowiednio pbliczonym zakresie zgodnie z rys 2)
