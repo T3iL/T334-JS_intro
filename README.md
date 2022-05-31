@@ -98,6 +98,7 @@ T33403 - (do 2022.05.31) - Przygotuj stronę html wyświetlającą karty profilo
 (Zastosuj css do sformatowania zgodnie z rysunkiem - Rys 1.)
 - dane użytkowników pobierz z https://gist.github.com/rubenCodeforges/ef1f0ce6a055bbb985c0848d8b0c04d5
 - zastąp placeholdery obrazów zdjęciami stockowymi (np: https://randomuser.me/api/portraits/women/24.jpg)
+- kolory : colors = ["#74fed6","#9fc1fe","#acc0e9","#9bd9ff","#a4d0e8","#ffc7e3","#fed8ae","#ffd7ae","#ff97a4"]
 - opis wypełnij lorem ipsum
 
 DODATKOWA FUNKCJONALNOSĆ:
